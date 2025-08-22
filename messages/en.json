@@ -1,3 +1,56 @@
 {
-  "title": "testowy tytuł po angielsku "
+  "title": "testowy tytuł po angielsku ",
+  "ProductsSection": {
+    "lite": {
+      "title": "Price Recommender LITE",
+      "subtitle": "Daily recommendations without guessing",
+      "description": "LITE considers local demand (historical and future), weekly and annual seasonality, holidays, weather, cancellations, booking pace and other factors to provide optimal price recommendations.",
+      "features": {
+        "recommendations": {
+          "title": "Short-term and long-term recommendations",
+          "items": [
+            "Recommendations up to 365 days ahead",
+            "Room and apartment segmentation",
+            "Convenient change approval",
+            "Clear explanations"
+          ]
+        },
+        "integration": {
+          "title": "Integration",
+          "items": [
+            "KWHotel Cloud",
+            "AI Booking Engine",
+            "Cloud Channel Manager",
+            "YieldPlanet",
+            "SiteMinder",
+            "Profitroom"
+          ]
+        }
+      }
+    },
+    "pro": {
+      "title": "Price Recommender PRO",
+      "subtitle": "Full market and hotel data overview",
+      "description": "PRO expands capabilities with competitor price and occupancy analysis, local occupancy, and powerful reports from Amazon QuickSight and Dataria system analytics. Both you and Price Recommender Pro benefit from this data for better recommendations.",
+      "features": {
+        "market": {
+          "title": "Full insight into your market",
+          "items": [
+            "Compare your prices against average competitor prices",
+            "Market position",
+            "Price consistency in OTAs"
+          ]
+        },
+        "information": {
+          "title": "Precise information",
+          "items": [
+            "KPIs visible at a glance",
+            "Data sources",
+            "Lead time",
+            "Seasonality"
+          ]
+        }
+      }
+    }
+  }
 }

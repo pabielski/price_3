@@ -7,6 +7,7 @@ import { getTolgee } from "@/tolgee/server";
 import { HeroUIProvider } from "@heroui/react";
 import "./globals.css";
 import { Montserrat, Poppins } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
 
 type Props = {
   children: ReactNode;
@@ -33,7 +34,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className={`${montserrat.className} ${poppins.className}`}>
         <HeroUIProvider>
           <TolgeeNextProvider language={locale} staticData={records}>
-            {children}
+            <NextIntlClientProvider>{children}</NextIntlClientProvider>
           </TolgeeNextProvider>
         </HeroUIProvider>
       </body>

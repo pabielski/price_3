@@ -14,6 +14,7 @@ export default function PrimaryButton({
       window.open(url, "_blank", "noopener,noreferrer");
     }
   };
+  console.log("PrimaryButton url", url);
   return (
     <button
       className={`bg-kworange hover:bg-kworangeHover hover:shadow-lg  text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out ${className}`}

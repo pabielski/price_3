@@ -1,0 +1,121 @@
+{
+  "consentModal": {
+    "title": "Manage your cookie preferences",
+    "description": "We use cookies to ensure the proper functioning of the website and for statistical and advertising purposes, helping us improve your experience with our brand.",
+    "acceptAllBtn": "Accept all",
+    "acceptNecessaryBtn": "Reject all",
+    "showPreferencesBtn": "Manage preferences",
+    "footer": "<a href='https://kwhotel.com/en/privacy-policy/' target='_blank'>Privacy Policy</a>"
+  },
+  "preferencesModal": {
+    "title": "Manage cookie preferences",
+    "acceptAllBtn": "Accept all",
+    "acceptNecessaryBtn": "Reject all",
+    "savePreferencesBtn": "Save settings",
+    "closeIconLabel": "Close",
+    "sections": [
+      {
+        "title": "Strictly Necessary",
+        "description": "These cookies are essential for the operation of the website and cannot be disabled.",
+        "linkedCategory": "necessary",
+        "cookieTable": {
+          "headers": {
+            "name": "Cookie",
+            "domain": "Domain",
+            "description": "Description",
+            "expiration": "Expiration"
+          },
+          "body": [
+            {
+              "name": "__lc_cid",
+              "domain": "accounts.livechatinc.com",
+              "description": "LiveChat support.",
+              "expiration": "1 year 1 month"
+            },
+            {
+              "name": "__lc_cst",
+              "domain": "accounts.livechatinc.com",
+              "description": "LiveChat support.",
+              "expiration": "1 year 1 month"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Analytics / Statistics",
+        "description": "These cookies collect information about how users interact with the website.",
+        "linkedCategory": "analytics",
+        "cookieTable": {
+          "headers": {
+            "name": "Cookie",
+            "domain": "Domain",
+            "description": "Description",
+            "expiration": "Expiration"
+          },
+          "body": [
+            {
+              "name": "_ga",
+              "domain": "price-recommender.kwhotel.com",
+              "description": "Google Analytics - User identification.",
+              "expiration": "1 year 1 month"
+            },
+            {
+              "name": "_ga_FPS8SCFRC2",
+              "domain": "price-recommender.kwhotel.com",
+              "description": "Google Analytics - Session state.",
+              "expiration": "1 year 1 month"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Marketing / Advertising",
+        "description": "These cookies are used for targeted advertising.",
+        "linkedCategory": "marketing",
+        "cookieTable": {
+          "headers": {
+            "name": "Cookie",
+            "domain": "Domain",
+            "description": "Description",
+            "expiration": "Expiration"
+          },
+          "body": [
+            {
+              "name": "_fbp",
+              "domain": "price-recommender.kwhotel.com",
+              "description": "Meta - Dynamic ads.",
+              "expiration": "3 months"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Functional",
+        "description": "These cookies allow us to remember your preferences and enhance your user experience.",
+        "linkedCategory": "functionality",
+        "cookieTable": {
+          "headers": {
+            "name": "Cookie",
+            "domain": "Domain",
+            "description": "Description",
+            "expiration": "Expiration"
+          },
+          "body": [
+            {
+              "name": "NEXT_LOCALE",
+              "domain": "price-recommender.kwhotel.com",
+              "description": "Stores the preferred language.",
+              "expiration": "1 year"
+            },
+            {
+              "name": "_oauth_redirect_detector",
+              "domain": "accounts.livechatinc.com",
+              "description": "OAuth support.",
+              "expiration": "23 seconds"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

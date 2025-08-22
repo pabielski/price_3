@@ -2,9 +2,11 @@ import Image from "next/image";
 import PrimaryButton from "./ui/PrimaryButton";
 import SecondaryButton from "./ui/SecondaryButton";
 import { getTranslate } from "../tolgee/server";
+import { getURLs } from "../utils/urls";
 
 export default async function Hero() {
   const t = await getTranslate();
+  const urls = await getURLs();
 
   return (
     <div className="relative bg-right bg-[url('/bbblurry.svg')] bg-no-repeat  bg-cover">
@@ -15,10 +17,18 @@ export default async function Hero() {
             {/* <p className="py-6 font-body">{t("about")}</p> */}
             <p className="py-6 font-body">{t("hero-content")}</p>
             <div className="flex gap-4">
-              <PrimaryButton url={t("Global.Link1")}>
+              <PrimaryButton
+                url={
+                  urls.primary + "?sol=--2--&?source=lp-price&?location=hero"
+                }
+              >
                 {t("Global.PrimaryButton")}
               </PrimaryButton>
-              <SecondaryButton url={t("Global.Link2")}>
+              <SecondaryButton
+                url={
+                  urls.secondary + "?sol=--2--&?source=lp-price&?location=hero"
+                }
+              >
                 {t("Global.SecondaryButton")}
               </SecondaryButton>
             </div>

@@ -1,0 +1,124 @@
+{
+  "consentModal": {
+    "title": "Zarządzaj preferencjami dotyczącymi plików cookie",
+    "description": "Korzystamy z plików cookies, aby zapewnić prawidłowe działanie strony oraz w celach statystyczno-reklamowych, które pomagają nam w ulepszaniu Twojego doświadczenia w kontakcie z naszą marką.",
+    "acceptAllBtn": "Zaakceptuj wszystkie",
+    "acceptNecessaryBtn": "Odrzuć wszystkie",
+    "showPreferencesBtn": "Zarządzaj preferencjami",
+    "footer": "<a href='https://kwhotel.com/pl/polityka-prywatnosci/' target='_blank'>Polityka prywatności</a>"
+  },
+  "preferencesModal": {
+    "title": "Zarządzaj preferencjami plików cookie",
+    "acceptAllBtn": "Zaakceptuj wszystkie",
+    "acceptNecessaryBtn": "Odrzuć wszystkie",
+    "savePreferencesBtn": "Zapisz ustawienia",
+    "closeIconLabel": "Zamknij",
+    "sections": [
+      {
+        "title": "Ściśle niezbędne",
+        "description": "Te pliki cookie są niezbędne do działania strony i nie mogą być wyłączone.",
+        "linkedCategory": "necessary",
+        "cookieTable": {
+          "headers": {
+            "name": "Plik cookie",
+            "domain": "Domena",
+            "description": "Opis",
+            "expiration": "Ważność"
+          },
+          "body": [
+            {
+              "name": "__lc_cid",
+              "domain": "accounts.livechatinc.com",
+              "description": "Obsługa LiveChat.",
+              "expiration": "1 rok 1 miesiąc"
+            },
+            {
+              "name": "__lc_cst",
+              "domain": "accounts.livechatinc.com",
+              "description": "Obsługa LiveChat.",
+              "expiration": "1 rok 1 miesiąc"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Analityczne / Statystyczne",
+        "description": "Te pliki cookie zbierają informacje o tym, jak użytkownik korzysta ze strony.",
+        "linkedCategory": "analytics",
+        "cookieTable": {
+          "headers": {
+            "name": "Plik cookie",
+            "domain": "Domena",
+            "description": "Opis",
+            "expiration": "Ważność"
+          },
+          "body": [
+            {
+              "name": "_ga",
+              "domain": "kwhotelxairbnb.vercel.app",
+              "description": "Google Analytics - Identyfikacja użytkownika.",
+              "expiration": "1 rok 1 miesiąc"
+            },
+            {
+              "name": "_ga_FPS8SCFRC2",
+              "domain": "kwhotelxairbnb.vercel.app",
+              "description": "Google Analytics - Stan sesji.",
+              "expiration": "1 rok 1 miesiąc"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Marketingowe / Reklamowe",
+        "description": "Te pliki cookie są używane do targetowania reklam.",
+        "linkedCategory": "marketing",
+        "cookieTable": {
+          "headers": {
+            "name": "Plik cookie",
+            "domain": "Domena",
+            "description": "Opis",
+            "expiration": "Ważność"
+          },
+          "body": [
+            {
+              "name": "_fbp",
+              "domain": "kwhotelxairbnb.vercel.app",
+              "description": "Meta - Reklamy dynamiczne.",
+              "expiration": "3 miesiące"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Funkcjonalne",
+        "description": "Te pliki cookie umożliwiają zapamiętywanie Twoich preferencji i poprawiają wygodę użytkowania.",
+        "linkedCategory": "functionality",
+        "cookieTable": {
+          "headers": {
+            "name": "Plik cookie",
+            "domain": "Domena",
+            "description": "Opis",
+            "expiration": "Ważność"
+          },
+          "body": [
+            {
+              "name": "NEXT_LOCALE",
+              "domain": "kwhotelxairbnb.vercel.app",
+              "description": "Zapamiętuje preferowany język.",
+              "expiration": "1 rok"
+            },
+            {
+              "name": "_oauth_redirect_detector",
+              "domain": "accounts.livechatinc.com",
+              "description": "Obsługa OAuth.",
+              "expiration": "23 sekundy"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contactModal": {
+    "title": "Kontakt"
+  }
+}

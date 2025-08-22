@@ -39,5 +39,58 @@
   "Secondary_Button": "Zobacz efekty",
   "button": "Przycisk",
   "hero-content": "Price Recommender PRO codziennie analizuje popyt, konkurencję\ni dane Twojego obiektu, aby podpowiedzieć najlepsze stawki\nnawet na 12 miesięcy do przodu. To Ty decydujesz, czy chcesz je\nwdrożyć, a system jasno tłumaczy każdą rekomendację.",
-  "title": "Analizuj jak zawodowiec: ceny, raporty i Twoją hotelową konkurencję"
+  "title": "Analizuj jak zawodowiec: ceny, raporty i Twoją hotelową konkurencję",
+  "ProductsSection": {
+    "lite": {
+      "title": "Price Recommender LITE",
+      "subtitle": "Codzienne rekomendacje bez zgadywania",
+      "description": "LITE uwzględnia lokalny popyt (historyczny i przyszły), tygodniową i roczną sezonowość, święta, pogodę, anulacje, tempo rezerwacji i inne czynniki, aby zapewnić optymalne rekomendacje cenowe.",
+      "features": {
+        "recommendations": {
+          "title": "Krótkoterminowe i długoterminowe rekomendacje",
+          "items": [
+            "Rekomendacje do 365 dni w przód",
+            "Segmentacja pokoi i apartamentów",
+            "Wygodne zatwierdzanie zmian",
+            "Jasne wyjaśnienia"
+          ]
+        },
+        "integration": {
+          "title": "Integracja",
+          "items": [
+            "KWHotel Cloud",
+            "AI Booking Engine",
+            "Cloud Channel Manager",
+            "YieldPlanet",
+            "SiteMinder",
+            "Profitroom"
+          ]
+        }
+      }
+    },
+    "pro": {
+      "title": "Price Recommender PRO",
+      "subtitle": "Pełny obraz rynku i danych hotelu",
+      "description": "PRO rozszerza możliwości o analizę cen i zajętości konkurencji, lokalną zajętość oraz potężne raporty z Amazon QuickSight i systemu analitycznego Dataria. Ty i Price Recommender Pro korzystacie z tych danych dla lepszych rekomendacji.",
+      "features": {
+        "market": {
+          "title": "Pełen wgląd w Twój rynek",
+          "items": [
+            "Porównanie Twoich cen ze średnią ceną konkurencji",
+            "Pozycja rynkowa",
+            "Spójność cen w OTA"
+          ]
+        },
+        "information": {
+          "title": "Precyzyjne informacje",
+          "items": [
+            "KPI widoczne na pierwszy rzut oka",
+            "Źródła danych",
+            "Lead time",
+            "Sezonowość"
+          ]
+        }
+      }
+    }
+  }
 }
