@@ -1,0 +1,47 @@
+{
+  "Gallery_Button": "Zobacz galerię",
+  "button": "Wypróbuj teraz",
+  "Global": {
+    "PrimaryButton": "Wypróbuj teraz",
+    "SecondaryButton": "Dowiedz się więcej",
+    "Link1": "https://www.kwhotel.pl/cennik/",
+    "Link2": "https://www.kwhotel.pl/blog/",
+    "Contact": "Kontakt",
+    "Close": "Zamknij",
+    "More": "Więcej"
+  },
+  "Menu": {
+    "SectionOne": "O nas",
+    "SectionTwo": "Funkcje",
+    "SectionThree": "Cennik",
+    "SectionFour": "FAQ",
+    "SectionFive": "Dla kogo"
+  },
+  "Hero": {
+    "title": "Inteligentny system rekomendacji cen dla Twojego hotelu",
+    "about": "Zwiększ przychody swojego obiektu dzięki zaawansowanej analizie danych i automatycznym rekomendacjom cenowym"
+  },
+  "ComparisonTable": {
+    "title": "Porównaj plany",
+    "subtitle": "Wybierz plan, który najlepiej odpowiada Twoim potrzebom",
+    "lite": {
+      "title": "Starter"
+    },
+    "pro": {
+      "title": "Standard"
+    },
+    "features": {
+      "competition_data": "Dane o konkurencji",
+      "reports_analytics": "Raporty i analityka",
+      "price_recommendations": "Rekomendacje cenowe"
+    },
+    "values": {
+      "one_hotel": "1 hotel",
+      "five_hotels": "5 hoteli",
+      "basic": "Podstawowe",
+      "advanced": "Zaawansowane",
+      "daily": "Codzienne",
+      "realtime": "Real-time"
+    }
+  }
+}

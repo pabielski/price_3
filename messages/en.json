@@ -1,0 +1,164 @@
+{
+  "Global": {
+    "PrimaryButton": "Click me!",
+    "SecondaryButton": "Or me!",
+    "Link1": "https://www.google.com",
+    "Link2": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "Contact": "Contact",
+    "Close": "Close",
+    "More": "Learn more"
+  },
+  "Menu": {
+    "SectionOne": "About",
+    "SectionTwo": "Features",
+    "SectionThree": "Pricing",
+    "SectionFour": "FAQ",
+    "SectionFive": "For Whom"
+  },
+  "Hero": {
+    "title": "How is it to be a Web Dev, good?",
+    "about": "In my opinion, it's not that it's good or bad. If I had to say what I value most in life, I would say websites."
+  },
+  "ComparisonTable": {
+    "title": "Compare Plans",
+    "subtitle": "Choose the plan that best suits your needs",
+    "lite": {
+      "title": "Starter"
+    },
+    "pro": {
+      "title": "Standard"
+    },
+    "features": {
+      "competition_data": "Competition Data",
+      "reports_analytics": "Reports & Analytics",
+      "price_recommendations": "Price Recommendations"
+    },
+    "values": {
+      "one_hotel": "1 hotel",
+      "five_hotels": "5 hotels",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "daily": "Daily",
+      "realtime": "Real-time"
+    }
+  },
+  "InfoSection": {
+    "title": "Your section title",
+    "content": [
+      "First paragraph of dynamic content.",
+      "Second paragraph of dynamic content.",
+      "Third paragraph of dynamic content."
+    ]
+  },
+  "FeaturesSection": {
+    "title": "Meet your advisor",
+    "cards": [
+      {
+        "title": "Revenue maximization without guessing",
+        "content": "Price Recommender analyzes market and historical data to automatically recommend prices that maximize profit and occupancy",
+        "imageUrl": "/korzysc-1.png"
+      },
+      {
+        "title": "Intelligent AI algorithms that work for you 24/7",
+        "content": "Our system learns from thousands of data points – taking into account trends, seasonality and the specifics of your property to precisely match prices.",
+        "imageUrl": "/korzysc-1.png"
+      },
+      {
+        "title": "Advanced occupancy forecasting",
+        "content": "Price Recommender not only suggests optimal prices but also provides you with statistics and two reports that will help you boost your pricing strategy even more - Occupancy Forecast and Stay Heat Map.",
+        "imageUrl": "/korzysc-1.png"
+      },
+      {
+        "title": "The final word always belongs to you",
+        "content": "You can trust the recommendations or adjust prices manually – you have complete freedom in decision making. The system won't change any price without your consent. You can also set a minimum/maximum price range.",
+        "imageUrl": "/korzysc-1.png"
+      },
+      {
+        "title": "Ease of use",
+        "content": "You don't need to be a revenue management expert – proposals and justifications are served on a platter, and you manage everything in one convenient window.",
+        "imageUrl": "/korzysc-1.png",
+        "modalBoxTitle": "Many benefits",
+        "modalBoxContent": "Pricingplansmodal"
+      },
+      {
+        "title": "Modern rate plan management",
+        "content": "The built-in rate plan module allows for quick and flexible pricing through simple-to-use formulas and inheritance.",
+        "imageUrl": "/korzysc-1.png",
+        "modalBoxTitle": "Many benefits",
+        "modalBoxContent": "idk"
+      }
+    ]
+  },
+  "ModalSection": {
+    "features": [
+      {
+        "highlight": "Save time",
+        "text": "Save time by creating rate plans that automatically inherit prices and settings from another rate plan. All with just a few clicks."
+      },
+      {
+        "highlight": "Speed up input",
+        "text": "Speed up the input of pricing periods using the convenient season creator and bulk price setting function."
+      },
+      {
+        "highlight": "Expand rate plans",
+        "text": "Expand rate plans with advanced pricing formulas and personalization. We put in your hands a solution many times more modern than the rate plan module known from the KWHotel Pro computer program."
+      },
+      {
+        "highlight": "Streamline your daily work",
+        "text": "Change the price in any system and watch how all rate plans are automatically recalculated in KWHotel Pro, KWHotel Cloud PMS or channel manager system."
+      },
+      {
+        "highlight": "Be ready for the future",
+        "text": "Rate plans that you configure in Price Recommender can be immediately used in solutions such as KWHotel Cloud PMS, Cloud Channel Manager or GuestSage's AI Booking Engine."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "title": "Question #1",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non faucibus sem. Suspendisse interdum porttitor hendrerit. In vel aliquet nibh, a accumsan est. Maecenas blandit vulputate lectus, eget ornare ligula lacinia sit amet."
+      },
+      {
+        "title": "Question #2",
+        "content": "Proin at semper eros. Fusce ultricies a ligula ac vehicula. Duis ut imperdiet augue. Quisque leo massa, rhoncus vehicula mauris sit amet, feugiat vehicula tellus."
+      }
+    ],
+    "contactButton": "Contact us"
+  },
+  "ForWhom": {
+    "title": "Who is this training for?",
+    "subtitle": "For Hoteliers and Revenue Managers who want to make faster, more accurate pricing decisions and more easily manage pricing plans in hotel software, portals and booking engines.",
+    "description": "During the training you will explore knowledge in the following topics:",
+    "cards": [
+      {
+        "title": "Competition Analysis",
+        "items": [
+          "Monitoring of competitor prices and occupancy and occupancy in your area or city",
+          "Parity reports: comparison of own prices vs. OTA.",
+          "Position ranking, ratings, insight into weather forecast in pricing decisions.",
+          "Using competitor data in pricing recommendations."
+        ]
+      },
+      {
+        "title": "Practical Price Management",
+        "items": [
+          "Inheritance of prices and restrictions between plans and rooms.",
+          "Packages (e.g. with breakfast, services, stays) with minimum/maximum stay.",
+          "Price overrides, personal formulas and prices for additional/fewer people.",
+          "Sending increased prices to booking portals without creating new plans."
+        ]
+      },
+      {
+        "title": "Analytics and Reports",
+        "items": [
+          "Revenue, bookings, ADR, average length of stay, \"Business on the books\".",
+          "Sales funnel of the engine (searches → bookings) and share of direct bookings.",
+          "Lead time and period comparisons for planning promotions and prices.",
+          "Discussion and training on report analysis on our demo accounts."
+        ]
+      }
+    ]
+  }
+}
