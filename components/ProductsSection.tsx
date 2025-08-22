@@ -6,139 +6,119 @@ import { CheckCircle2, CircleCheck } from "lucide-react";
 export default async function ProductsSection() {
   const t = await getTranslate();
 
+  const productsData = [
+    {
+      id: 1,
+      type: "LITE",
+      title: t("ProductsSection.lite.title"),
+      description: t("ProductsSection.lite.description"),
+      photo: "/price-recommender-lite.webp",
+      chipColor: "primary" as const,
+      iconColor: "text-blue-500",
+      bgColor: "bg-gradient-to-br from-blue-50 to-indigo-50",
+      features: [
+        {
+          bold: t("ProductsSection.lite.features.item1.bold"),
+          normal: t("ProductsSection.lite.features.item1.normal"),
+        },
+        {
+          bold: t("ProductsSection.lite.features.item2.bold"),
+          normal: t("ProductsSection.lite.features.item2.normal"),
+        },
+      ],
+      imageOrder: "order-2 lg:order-1",
+      textOrder: "order-1 lg:order-2",
+    },
+    {
+      id: 2,
+      type: "PRO",
+      title: t("ProductsSection.pro.title"),
+      description: t("ProductsSection.pro.description"),
+      photo: "/price-recommender-pro.webp",
+      chipColor: "warning" as const,
+      iconColor: "text-orange-500",
+      bgColor: "bg-white",
+      features: [
+        {
+          bold: t("ProductsSection.pro.features.item1.bold"),
+          normal: t("ProductsSection.pro.features.item1.normal"),
+        },
+        {
+          bold: t("ProductsSection.pro.features.item2.bold"),
+          normal: t("ProductsSection.pro.features.item2.normal"),
+        },
+      ],
+      imageOrder: "order-2 lg:order-1",
+      textOrder: "order-1 lg:order-2",
+    },
+  ];
+
   return (
     <div className="bg-white">
-      {/* LITE Section - Text on left, image on right */}
-      <section className="py-24 bg-gradient-to-br from-blue-50 to-indigo-50">
-        <div className="max-w-[1300px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Text Section - Left */}
-            <div>
-              <div className="flex items-center mb-4">
-                <Chip color="primary" variant="solid" className="mr-4">
-                  LITE
-                </Chip>
-                <h2 className="text-4xl font-bold text-gray-900">
-                  {t("ProductsSection.lite.title")}
-                </h2>
-              </div>
+      {productsData.map((product, index) => (
+        <section key={product.id} className={`py-24 ${product.bgColor}`}>
+          <div className="max-w-[1300px] mx-auto px-6 lg:px-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Text Section */}
+              <div className={index === 0 ? "" : product.textOrder}>
+                <div className="flex items-center mb-4">
+                  <Chip
+                    color={product.chipColor}
+                    variant="solid"
+                    className="mr-4"
+                  >
+                    {product.type}
+                  </Chip>
+                  <h2 className="text-4xl font-bold text-gray-900">
+                    {product.title}
+                  </h2>
+                </div>
 
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                <strong>{t("ProductsSection.lite.description.bold")}</strong>{" "}
-                {t("ProductsSection.lite.description")}
-              </p>
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                  {product.description}
+                </p>
 
-              <div className="space-y-6">
-                <div>
-                  <ul className="space-y-6">
-                    <li className="flex items-center text-gray-600">
-                      <CircleCheck className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
-                      <span>
-                        <strong>
-                          {t(
-                            "ProductsSection.lite.features.recommendations.items.bold.0"
-                          )}{" "}
-                        </strong>
-                        {t(
-                          "ProductsSection.lite.features.recommendations.items.0"
-                        )}
-                      </span>
-                    </li>
-                    <li className="flex items-center text-gray-600">
-                      <CheckCircle2 className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
-                      <span>
-                        <strong>
-                          {t(
-                            "ProductsSection.lite.features.recommendations.items.bold.1"
-                          )}{" "}
-                        </strong>
-                        {t(
-                          "ProductsSection.lite.features.recommendations.items.1"
-                        )}
-                      </span>
-                    </li>
-                  </ul>
+                <div className="space-y-6">
+                  <div>
+                    <ul className="space-y-6">
+                      {product.features.map((feature, featureIndex) => (
+                        <li
+                          key={featureIndex}
+                          className="flex items-center text-gray-600"
+                        >
+                          {index === 0 ? (
+                            <CircleCheck
+                              className={`w-5 h-5 ${product.iconColor} mr-3 flex-shrink-0`}
+                            />
+                          ) : (
+                            <CheckCircle2
+                              className={`w-5 h-5 ${product.iconColor} mr-3 flex-shrink-0`}
+                            />
+                          )}
+                          <span>
+                            <strong>{feature.bold}</strong> {feature.normal}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Image Section - Right */}
-            <div>
-              <Image
-                src="/price-recommender-lite.webp"
-                alt="Lite"
-                width={1000}
-                height={1000}
-                className="w-full h-full object-cover rounded-2xl"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PRO Section - Image on left, text on right */}
-      <section className="py-24 bg-white">
-        <div className="max-w-[1300px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Image Section - Left */}
-            <div className="order-2 lg:order-1">
-              <Image
-                src="/price-recommender-pro.webp"
-                alt="Pro"
-                width={1000}
-                height={1000}
-                className="w-full h-full object-cover rounded-2xl"
-              />
-            </div>
-
-            {/* Text Section - Right */}
-            <div className="order-1 lg:order-2">
-              <div className="flex items-center mb-4">
-                <Chip color="warning" variant="solid" className="mr-4">
-                  PRO
-                </Chip>
-                <h2 className="text-4xl font-bold text-gray-900">
-                  {t("ProductsSection.pro.title")}
-                </h2>
-              </div>
-
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                <strong>{t("ProductsSection.pro.description.bold")}</strong>{" "}
-                {t("ProductsSection.pro.description")}
-              </p>
-
-              <div className="space-y-6">
-                <div>
-                  <ul className="space-y-2">
-                    <li className="flex items-center text-gray-600">
-                      <CheckCircle2 className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                      <span>
-                        <strong>
-                          {t(
-                            "ProductsSection.pro.features.market.items.bold.0"
-                          )}{" "}
-                        </strong>
-                        {t("ProductsSection.pro.features.market.items.0")}
-                      </span>
-                    </li>
-                    <li className="flex items-center text-gray-600">
-                      <CheckCircle2 className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                      <span>
-                        <strong>
-                          {t(
-                            "ProductsSection.pro.features.market.items.bold.1"
-                          )}{" "}
-                        </strong>
-                        {t("ProductsSection.pro.features.market.items.1")}
-                      </span>
-                    </li>
-                  </ul>
-                </div>
+              {/* Image Section */}
+              <div className={index === 0 ? "" : product.imageOrder}>
+                <Image
+                  src={product.photo}
+                  alt={product.type}
+                  width={1000}
+                  height={1000}
+                  className="w-full h-full object-cover rounded-2xl"
+                />
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ))}
     </div>
   );
 }

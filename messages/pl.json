@@ -1,28 +1,4 @@
 {
-  "ComparisonTable": {
-    "features": {
-      "competition_data": "Dane o konkurencji",
-      "price_recommendations": "Rekomendacje cenowe",
-      "reports_analytics": "Raporty i analityka"
-    },
-    "functions": "Funkcje",
-    "lite": {
-      "title": "LITE"
-    },
-    "pro": {
-      "title": "PRO"
-    },
-    "subtitle": "Wybierz zakres wsparcia, którego potrzebujesz: LITE - szybki start z codziennymi rekomendacjami cen \n\nlub PRO - pełny obraz rynku z analizą konkurencji i zaawansowaną analityką.",
-    "title": "Dwie wersje, jeden cel: wyższe przychody w Twoim obiekcie",
-    "values": {
-      "advanced": "dostęp do potężnych raportów z Amazon QuickSight oraz rozbudowanej analityki z Dataria.",
-      "basic": "podstawowe raporty",
-      "daily": "tak",
-      "five_hotels": "ceny i zajętość Twojej konkurencji oraz zajętość w lokalizacji\n\n",
-      "one_hotel": "brak",
-      "realtime": "tak, ze wsparciem informacji z Amazon QuickSight i Dataria"
-    }
-  },
   "ForWhom": {
     "cards": {
       "0": {
@@ -59,50 +35,45 @@
     "description": "Działaj na podstawie danych, nieważne czy jesteś nowicjuszem czy ekspertem od zarządzania cenami. \n\nPrice Recommender śledzi rynek, podpowiada właściwe ceny i dostarcza Ci kluczowe informacje i metryki",
     "title": "Wirtualny doradca dla Hotelarzy i Revenue Managerów"
   },
-  "Global": {
-    "PrimaryURL": "https://kwhotel-cloud.paperform.co/",
-    "SecondaryURL": "https://kwhotel-cloud.paperform.co?sol=--2--&source=lp-price&location=hero",
-    "baseURL": "https://kwhotel-cloud.paperform.co/"
-  },
   "Primary_Button": "Umów rozmowę z doradcą",
-  "ProductsSection": {
-    "lite": {
-      "description": "LITE uwzględnia lokalny popyt (historyczny i przyszły), sezonowość tygodniową i roczną, święta,\npogodę, anulacje, tempo napływu rezerwacji i wiele innych czynników,\naby dostarczyć Ci optymalne rekomendacje cenowe.",
-      "description.bold": "Codzienne rekomendacje bez zgadywania.",
-      "features": {
-        "recommendations": {
-          "items": {
-            "0": "(nawet 365\ndni do przodu), segmentacja pokoi i apartamentów, wygodne\nzatwierdzanie zmian i jasne wyjaśnienia przy każdej rekomendacji.",
-            "1": "z KWHotel Cloud, AI Booking Engine, Cloud Channel\nManager, a także YieldPlanet, SiteMinder i Profitroom",
-            "bold": {
-              "0": "Krótkoterminowe i długoterminowe rekomendacje",
-              "1": "Integracja"
-            }
-          }
-        }
-      },
-      "title": "Price Recommender LITE"
-    },
-    "pro": {
-      "description": "PRO rozszerza Twoje możliwości o analizę cen i zajętości konkurencji oraz zajętość w lokalizacji. Do tego otrzymujesz potężne raporty z Amazon QuickSight i analitykę z systemu Dataria. Z tych danych skorzystasz zarówno Ty (w codziennej analizie), jak i Price Recommender Pro (w przygotowywaniu lepszych rekomendacji).",
-      "description.bold": "Pełny obraz rynku i danych hotelu.",
-      "features": {
-        "market": {
-          "items": {
-            "0": "Twoje ceny vs średnia konkurencji,\npozycja i spójność cen w OTA.",
-            "1": "KPI, źródła, lead time i sezonowość widoczne\njuż na pierwszy rzut oka.",
-            "bold": {
-              "0": "Pełen wgląd w Twój rynek:",
-              "1": "Precyzyjne informacje:"
-            }
-          }
-        }
-      },
-      "title": "Price Recommender PRO"
-    }
-  },
   "Secondary_Button": "Zobacz efekty",
   "button": "Przycisk",
   "hero-content": "Price Recommender PRO codziennie analizuje popyt, konkurencję\ni dane Twojego obiektu, aby podpowiedzieć najlepsze stawki\nnawet na 12 miesięcy do przodu. To Ty decydujesz, czy chcesz je\nwdrożyć, a system jasno tłumaczy każdą rekomendację.",
-  "title": "Analizuj jak zawodowiec: ceny, raporty i Twoją hotelową konkurencję"
+  "title": "Analizuj jak zawodowiec: ceny, raporty i Twoją hotelową konkurencję",
+  "ProductsSection": {
+    "lite": {
+      "title": "Price Recommender LITE",
+      "description": "Codzienne rekomendacje bez zgadywania. LITE uwzględnia lokalny popyt, sezonowość, święta, pogodę i inne czynniki.",
+      "features": {
+        "item1": {
+          "bold": "Rekomendacje do 365 dni do przodu",
+          "normal": "z segmentacją pokoi i apartamentów"
+        },
+        "item2": {
+          "bold": "Wygodne zatwierdzanie zmian",
+          "normal": "z jasnymi wyjaśnieniami"
+        }
+      }
+    },
+    "pro": {
+      "title": "Price Recommender PRO",
+      "description": "Pełny przegląd rynku i danych hotelu. PRO rozszerza możliwości o analizę cen i zajętości konkurencji.",
+      "features": {
+        "item1": {
+          "bold": "Porównaj swoje ceny",
+          "normal": "z cenami konkurencji i poznaj pozycję na rynku"
+        },
+        "item2": {
+          "bold": "KPIs widoczne na pierwszy rzut oka",
+          "normal": "z analizą źródeł danych"
+        }
+      }
+    }
+  },
+  "Global": {
+    "PrimaryButton": "Umów rozmowę z doradcą",
+    "SecondaryButton": "Zobacz efekty",
+    "PrimaryURL": "https://kwhotel-cloud.paperform.co?sol=--2--&source=lp-price",
+    "SecondaryURL": "https://example.com"
+  }
 }
