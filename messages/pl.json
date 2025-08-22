@@ -1,47 +1,43 @@
 {
-  "Gallery_Button": "Zobacz galerię",
-  "button": "Wypróbuj teraz",
-  "Global": {
-    "PrimaryButton": "Wypróbuj teraz",
-    "SecondaryButton": "Dowiedz się więcej",
-    "Link1": "https://www.kwhotel.pl/cennik/",
-    "Link2": "https://www.kwhotel.pl/blog/",
-    "Contact": "Kontakt",
-    "Close": "Zamknij",
-    "More": "Więcej"
-  },
-  "Menu": {
-    "SectionOne": "O nas",
-    "SectionTwo": "Funkcje",
-    "SectionThree": "Cennik",
-    "SectionFour": "FAQ",
-    "SectionFive": "Dla kogo"
-  },
-  "Hero": {
-    "title": "Inteligentny system rekomendacji cen dla Twojego hotelu",
-    "about": "Zwiększ przychody swojego obiektu dzięki zaawansowanej analizie danych i automatycznym rekomendacjom cenowym"
-  },
-  "ComparisonTable": {
-    "title": "Porównaj plany",
-    "subtitle": "Wybierz plan, który najlepiej odpowiada Twoim potrzebom",
-    "lite": {
-      "title": "Starter"
+  "ForWhom": {
+    "cards": {
+      "0": {
+        "items": {
+          "0": "Szybkie porównanie Twoich cen z cenami zdefiniowanej konkurencji oraz wgląd w zajętość rynku w czasie (wykres ceny + słupki zajętości).",
+          "1": "Kalendarz pokazujący różnice do średniej ceny konkurencji, prognozą pogody i szacowaną dostępnością pokoi w okolicy. Błyskawicznie podejmuj optymalne decyzje cenowe.",
+          "2": "Parity alert: wykrywa niższe stawki w portalach rezerwacyjnych i wskazuje, gdzie masz błędne ustawienia.",
+          "3": "Ranking pozycji w portalach i różnice cenowe względem Twojej oferty . Zobacz, czy jesteś nad czy pod rynkiem.",
+          "4": "Te dane są wykorzystywane przez system do wyznaczania optymalnych cen w PMS, OTA i silniku rezerwacyjnym."
+        },
+        "title": "Analiza konkurencji"
+      },
+      "1": {
+        "items": {
+          "0": "Codzienne propozycje cen dla pokoi i apartamentów: zatwierdzaj jednym kliknięciem lub wpisz własną kwotę.",
+          "1": "Krótki horyzont (30 dni) + długi horyzont (do 12 miesięcy): algorytmy grupują podobne daty i ustawiają jedną właściwą cenę na segment.",
+          "2": "Segmentacja apartamentów i pokoi; Wprowadzaj ceny zbiorczo dla setek jednostek jednocześnie.",
+          "3": "Price Recommender wyjaśni Ci wpływ jego rekomendacji na obłożenie, przychód i anulacje.",
+          "4": "System samodzielnie reaguje na nagłe zmiany na rynku (np. pandemia, katastrofy naturalne). Nie musisz ustawiać żadnych reguł, nasze algorytmy poradzą sobie same."
+        },
+        "title": "Rekomendacje cenowe"
+      },
+      "2": {
+        "items": {
+          "0": "Zyskaj dostęp do panelu KPI, pokazującego konwersję, udział silnika rezerwacyjnego czy porównanie okresów.",
+          "1": "Lejek sprzedażowy (od wyświetlenia oferty po rezerwację); szybko namierzaj wąskie gardła.",
+          "2": "Business on the Books: bieżący stan rezerwacji, udział kanałów, ADR i średnia długość pobytu.",
+          "3": "Raporty przychodów i rezerwacji w podziale na kanały, typy pokoi, plany cenowe i lead time.",
+          "4": "Szczegółowe raporty z programu hotelowego i silnika rezerwacji; od wyświetleń oferty i kliknięć po rezerwacje i przychody."
+        },
+        "title": "Zaawansowana analityka"
+      }
     },
-    "pro": {
-      "title": "Standard"
-    },
-    "features": {
-      "competition_data": "Dane o konkurencji",
-      "reports_analytics": "Raporty i analityka",
-      "price_recommendations": "Rekomendacje cenowe"
-    },
-    "values": {
-      "one_hotel": "1 hotel",
-      "five_hotels": "5 hoteli",
-      "basic": "Podstawowe",
-      "advanced": "Zaawansowane",
-      "daily": "Codzienne",
-      "realtime": "Real-time"
-    }
-  }
+    "description": "Działaj na podstawie danych, nieważne czy jesteś nowicjuszem czy ekspertem od zarządzania cenami. \n\nPrice Recommender śledzi rynek, podpowiada właściwe ceny i dostarcza Ci kluczowe informacje i metryki",
+    "title": "Wirtualny doradca dla Hotelarzy i Revenue Managerów"
+  },
+  "Primary_Button": "Umów rozmowę z doradcą",
+  "Secondary_Button": "Zobacz efekty",
+  "button": "Przycisk",
+  "hero-content": "Price Recommender PRO codziennie analizuje popyt, konkurencję\ni dane Twojego obiektu, aby podpowiedzieć najlepsze stawki\nnawet na 12 miesięcy do przodu. To Ty decydujesz, czy chcesz je\nwdrożyć, a system jasno tłumaczy każdą rekomendację.",
+  "title": "Analizuj jak zawodowiec: ceny, raporty i Twoją hotelową konkurencję"
 }
