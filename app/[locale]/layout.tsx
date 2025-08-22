@@ -8,6 +8,7 @@ import { HeroUIProvider } from "@heroui/react";
 import "./globals.css";
 import { Montserrat, Poppins } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
+import CookieConsentComponent from "@/components/external/cookieConsent/CookieConsent";
 
 type Props = {
   children: ReactNode;
@@ -31,6 +32,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
+      <CookieConsentComponent />
       <body className={`${montserrat.className} ${poppins.className}`}>
         <HeroUIProvider>
           <TolgeeNextProvider language={locale} staticData={records}>
