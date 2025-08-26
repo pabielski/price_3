@@ -9,7 +9,7 @@ export default async function ForWhom() {
     {
       id: 1,
       title: t("ForWhom.cards.0.title"),
-      photo: "/analiza-konkurencji.webp",
+      photo: "/competitor-analysis.webp",
       items: [
         t("ForWhom.cards.0.items.0"),
         t("ForWhom.cards.0.items.1"),
@@ -21,7 +21,7 @@ export default async function ForWhom() {
     {
       id: 2,
       title: t("ForWhom.cards.1.title"),
-      photo: "/rekomendacje-cenowe.webp",
+      photo: "/price-recommendations.webp",
       items: [
         t("ForWhom.cards.1.items.0"),
         t("ForWhom.cards.1.items.1"),
@@ -33,7 +33,7 @@ export default async function ForWhom() {
     {
       id: 3,
       title: t("ForWhom.cards.2.title"),
-      photo: "/zaawansowana-analityka.webp",
+      photo: "/advanced-analytics.webp",
       items: [
         t("ForWhom.cards.2.items.0"),
         t("ForWhom.cards.2.items.1"),
