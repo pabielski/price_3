@@ -24,13 +24,7 @@ export default async function Hero() {
               >
                 {t("Global.PrimaryButton")}
               </PrimaryButton>
-              <SecondaryButton
-                url={
-                  urls.secondary + "?sol=--2--&?source=lp-price&?location=hero"
-                }
-              >
-                {t("Global.SecondaryButton")}
-              </SecondaryButton>
+              <SecondaryButton disabled>Nie patrz na efekty</SecondaryButton>
             </div>
           </div>
           <div className="col-span-5 self-center justify-self-end">

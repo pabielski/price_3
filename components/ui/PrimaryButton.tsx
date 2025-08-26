@@ -17,7 +17,7 @@ export default function PrimaryButton({
   console.log("PrimaryButton url", url);
   return (
     <button
-      className={`bg-kworange hover:bg-kworangeHover hover:shadow-lg  text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out ${className}`}
+      className={`bg-kworange hover:bg-kworangeHover hover:shadow-lg  text-white font-normal py-2 px-4 rounded-lg transition duration-300 ease-in-out ${className} hover:cursor-pointer`}
       onClick={handleRedirection}
     >
       {children}

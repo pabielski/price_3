@@ -2,10 +2,13 @@ import { getTranslate } from "@/tolgee/server";
 import { Chip } from "@heroui/react";
 import Image from "next/image";
 import { CheckCircle2, CircleCheck } from "lucide-react";
+import PrimaryButton from "./ui/PrimaryButton";
+import SecondaryButton from "./ui/SecondaryButton";
+import { getURLs } from "@/utils/urls";
 
 export default async function ProductsSection() {
   const t = await getTranslate();
-
+  const urls = await getURLs();
   const productsData = [
     {
       id: 1,
@@ -119,6 +122,21 @@ export default async function ProductsSection() {
           </div>
         </section>
       ))}
+      <div className="flex justify-center  gap-6 mb-20">
+        <SecondaryButton
+          url={
+            urls.secondary + "?sol=--2--&?source=lp-price&?location=products"
+          }
+        >
+          {t("ForWhom.functionButton")}
+        </SecondaryButton>
+
+        <PrimaryButton
+          url={urls.primary + "?sol=--2--&?source=lp-price&?location=products"}
+        >
+          {t("Global.PrimaryButton")}
+        </PrimaryButton>
+      </div>
     </div>
   );
 }

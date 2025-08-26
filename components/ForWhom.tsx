@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslate } from "@/tolgee/server";
+import { Button } from "@heroui/button";
 
 export default async function ForWhom() {
   const t = await getTranslate();
@@ -85,6 +86,14 @@ export default async function ForWhom() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center gap-6 mt-10">
+          <Button className="bg-kwgreen text-white" color="success">
+            {t("ForWhom.videoButton")}
+          </Button>
+          <Button className="bg-kwgreen text-white" color="success">
+            {t("ForWhom.functionButton")}
+          </Button>
         </div>
       </div>
     </section>

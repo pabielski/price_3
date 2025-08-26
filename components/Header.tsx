@@ -52,7 +52,7 @@ const Header: React.FC<HeaderProps> = ({ menuItems }) => {
           <div className="lg:hidden flex items-center space-x-4">
             <button
               id="upper-bar-contact-request-mobile"
-              className="bg-kworange text-white hover:bg-kworangeHover py-[1.2rem] px-4 rounded-lg"
+              className="bg-kworange text-white hover:bg-kworangeHover py-[1.2rem] px-4 rounded-lg hover:cursor-pointer font-normal"
               onClick={() => setIsModalOpen(true)}
             >
               {t("contact_button")}
@@ -97,7 +97,7 @@ const Header: React.FC<HeaderProps> = ({ menuItems }) => {
           {/* Contact Button */}
           <button
             id="upper-bar-contact-request"
-            className="hidden lg:inline-flex bg-[#d85a0e] text-white hover:bg-[#ee6410] transition-all duration-300 ease-in-out py-2 px-4 rounded-lg"
+            className="hidden lg:inline-flex bg-kworange hover:bg-kworangeHover text-white hover:shadow-md transition-all duration-300 ease-in-out py-2 px-4 rounded-lg hover:cursor-pointer font-normal"
             onClick={() => setIsModalOpen(true)}
           >
             {t("contact_button")}
