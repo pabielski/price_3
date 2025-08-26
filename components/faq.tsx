@@ -10,10 +10,6 @@ interface FAQItem {
 export default function QnA() {
   const { t } = useTranslate();
 
-  const handleRedirect = (url: string): void => {
-    window.open(url, "_blank"); // Open in a new tab
-  };
-
   // Statyczne dane dla 5 pytań FAQ
   const questions: FAQItem[] = [
     {
