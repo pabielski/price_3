@@ -114,18 +114,30 @@
     ]
   },
   "FAQ": {
-    "title": "Frequently Asked Questions",
+    "title": "Häufig gestellte Fragen",
+    "ready_title": "Bereit für Preisoptimierung?",
     "questions": [
       {
-        "title": "Question #1",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non faucibus sem. Suspendisse interdum porttitor hendrerit. In vel aliquet nibh, a accumsan est. Maecenas blandit vulputate lectus, eget ornare ligula lacinia sit amet."
+        "title": "Wie funktioniert Price Recommender?",
+        "content": "Price Recommender analysiert Marktdaten, historische Trends und Konkurrenz, um automatisch optimale Preise zu empfehlen. Das System lernt aus Tausenden von Datenpunkten und berücksichtigt Saisonalität, lokale Ereignisse und die Besonderheiten Ihrer Immobilie."
       },
       {
-        "title": "Question #2",
-        "content": "Proin at semper eros. Fusce ultricies a ligula ac vehicula. Duis ut imperdiet augue. Quisque leo massa, rhoncus vehicula mauris sit amet, feugiat vehicula tellus."
+        "title": "Kann ich die empfohlenen Preise kontrollieren?",
+        "content": "Ja, Sie haben die volle Kontrolle! Sie können Empfehlungen mit einem Klick genehmigen oder Preise manuell anpassen. Das System ändert keinen Preis ohne Ihre Zustimmung. Sie können auch einen minimalen und maximalen Preisbereich festlegen."
+      },
+      {
+        "title": "Welche Daten analysiert das System?",
+        "content": "Das System analysiert Nachfragedaten, Preiswettbewerb, historische Trends, Saisonalität, lokale Ereignisse, Wettervorhersagen und viele andere Faktoren, die die Übernachtungspreise an Ihrem Standort beeinflussen."
+      },
+      {
+        "title": "Benötige ich Kenntnisse im Revenue Management?",
+        "content": "Nein! Price Recommender ist so konzipiert, dass er einfach zu bedienen ist. Vorschläge und Begründungen werden auf dem Silbertablett serviert, und Sie verwalten alles in einem praktischen Fenster. Sie müssen kein Preisexperte sein."
+      },
+      {
+        "title": "Wie oft erhalte ich Empfehlungen?",
+        "content": "Sie erhalten täglich Preisempfehlungen für Zimmer und Apartments. Das System reagiert automatisch auf plötzliche Marktveränderungen und liefert aktuelle Vorschläge, die Sie genehmigen oder nach Ihren Wünschen anpassen können."
       }
-    ],
-    "contactButton": "Contact us"
+    ]
   },
   "ForWhom": {
     "title": "Who is this training for?",

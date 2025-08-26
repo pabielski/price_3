@@ -46,7 +46,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
     >
       <ModalContent>
         <ModalHeader className="text-center text-2xl font-bold text-gray-800">
-          {t("title")}
+          {t("Global.ContactModal.title")}
         </ModalHeader>
         <ModalBody>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center ">
@@ -77,7 +77,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           </div>
 
           <div className="text-center mt-6">
-            <p className="text-gray-700 font-semibold text-lg">
+            <p className="text-gray-700 font-semibold text-lg pb-4">
               {t("orContactForm")}
             </p>
             <PrimaryButton

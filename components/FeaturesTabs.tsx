@@ -175,7 +175,7 @@ export default function FeaturesTabs() {
   };
 
   return (
-    <section id="features-tabs-section" className="bg-white">
+    <section id="" className="bg-white">
       <div className="w-full max-w-[1300px] 3xl:max-w-screen-2xl mx-auto px-4 md:px-12 py-8 md:py-24 ">
         <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl font-poppins mb-12 text-center">
           {t("tabs_title")}

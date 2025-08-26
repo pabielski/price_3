@@ -1,7 +1,35 @@
 {
+  "title": "testowy tytuł po angielsku ",
   "Global": {
     "PrimaryURL": "https://kwhotel-cloud-solutions.paperform.co/",
-    "baseURL": "https://kwhotel-cloud-solutions.paperform.co/"
+    "baseURL": "https://kwhotel-cloud-solutions.paperform.co/",
+    "PrimaryButton": "Schedule a consultation",
+    "SecondaryButton": "See results"
   },
-  "title": "testowy tytuł po angielsku "
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "ready_title": "Ready for price optimization?",
+    "questions": [
+      {
+        "title": "How does Price Recommender work?",
+        "content": "Price Recommender analyzes market data, historical trends and competition to automatically recommend optimal prices. The system learns from thousands of data points, taking into account seasonality, local events and the specifics of your property."
+      },
+      {
+        "title": "Can I control the recommended prices?",
+        "content": "Yes, you have full control! You can approve recommendations with one click or adjust prices manually. The system won't change any price without your consent. You can also set a minimum and maximum price range."
+      },
+      {
+        "title": "What data does the system analyze?",
+        "content": "The system analyzes demand data, price competition, historical trends, seasonality, local events, weather forecasts and many other factors affecting accommodation prices in your location."
+      },
+      {
+        "title": "Do I need revenue management knowledge?",
+        "content": "No! Price Recommender is designed to be simple to use. Proposals and justifications are served on a platter, and you manage everything in one convenient window. You don't need to be a pricing expert."
+      },
+      {
+        "title": "How often do I receive recommendations?",
+        "content": "You receive daily price recommendations for rooms and apartments. The system automatically responds to sudden market changes and provides current proposals that you can approve or adjust according to your preferences."
+      }
+    ]
+  }
 }

@@ -48,7 +48,7 @@ export default function ComparisonTable() {
   ];
 
   return (
-    <section className="py-24 bg-white sm:py-32">
+    <section id="features-tabs-section" className="py-24 bg-white sm:py-32">
       <div className="mx-auto  px-6 lg:px-8">
         {/* Features Table */}
         <div className="mt-16">

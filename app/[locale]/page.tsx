@@ -7,22 +7,20 @@ import ProductsSection from "@/components/ProductsSection";
 
 import Footer from "@/components/Footer";
 import { getTranslate } from "@/tolgee/server";
+import QnA from "@/components/faq";
 
 export default async function Home() {
   const t = await getTranslate();
 
   const menuItems = [
-    { label: t("Menu.SectionOne", "info-section"), sectionId: "info-section" },
-    {
-      label: t("Menu.SectionTwo", "features-section"),
-      sectionId: "features-section",
-    },
-    {
-      label: t("Menu.SectionThree", "plans-section"),
-      sectionId: "plans-section",
-    },
-    { label: t("Menu.SectionFour", "faq-section"), sectionId: "faq-section" },
     { label: t("Menu.SectionFive", "for-whom-section"), sectionId: "dla-kogo" },
+
+    {
+      label: t("Menu.SectionTwo", "features-tabs-section"),
+      sectionId: "features-tabs-section",
+    },
+
+    { label: t("Menu.SectionFour", "faq-section"), sectionId: "faq-section" },
   ];
 
   return (
@@ -32,6 +30,7 @@ export default async function Home() {
       <ForWhom />
       <ComparisonTable />
       <ProductsSection />
+      <QnA />
       <Footer />
     </>
   );

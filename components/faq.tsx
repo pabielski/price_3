@@ -17,24 +17,64 @@ export default function QnA() {
   // Statyczne dane dla 5 pytań FAQ
   const questions: FAQItem[] = [
     {
-      title: t("faq.question1.title"),
-      content: t("faq.question1.content"),
+      title: t("FAQ.questions.0.title"),
+      content: t("FAQ.questions.0.content"),
     },
     {
-      title: t("faq.question2.title"),
-      content: t("faq.question2.content"),
+      title: t("FAQ.questions.1.title"),
+      content: t("FAQ.questions.1.content"),
     },
     {
-      title: t("faq.question3.title"),
-      content: t("faq.question3.content"),
+      title: t("FAQ.questions.2.title"),
+      content: t("FAQ.questions.2.content"),
     },
     {
-      title: t("faq.question4.title"),
-      content: t("faq.question4.content"),
+      title: t("FAQ.questions.3.title"),
+      content: t("FAQ.questions.3.content"),
     },
     {
-      title: t("faq.question5.title"),
-      content: t("faq.question5.content"),
+      title: t("FAQ.questions.4.title"),
+      content: t("FAQ.questions.4.content"),
+    },
+    {
+      title: t("FAQ.questions.5.title"),
+      content: t("FAQ.questions.5.content"),
+    },
+    {
+      title: t("FAQ.questions.6.title"),
+      content: t("FAQ.questions.6.content"),
+    },
+    {
+      title: t("FAQ.questions.7.title"),
+      content: t("FAQ.questions.7.content"),
+    },
+    {
+      title: t("FAQ.questions.8.title"),
+      content: t("FAQ.questions.8.content"),
+    },
+    {
+      title: t("FAQ.questions.9.title"),
+      content: t("FAQ.questions.9.content"),
+    },
+    {
+      title: t("FAQ.questions.10.title"),
+      content: t("FAQ.questions.10.content"),
+    },
+    {
+      title: t("FAQ.questions.11.title"),
+      content: t("FAQ.questions.11.content"),
+    },
+    {
+      title: t("FAQ.questions.12.title"),
+      content: t("FAQ.questions.12.content"),
+    },
+    {
+      title: t("FAQ.questions.13.title"),
+      content: t("FAQ.questions.13.content"),
+    },
+    {
+      title: t("FAQ.questions.14.title"),
+      content: t("FAQ.questions.14.content"),
     },
   ];
 
@@ -45,7 +85,7 @@ export default function QnA() {
     >
       <div className="w-full max-w-[1200px] 3xl:max-w-screen-2xl lg:px-12 mx-auto p-4 z-10 relative pb-12">
         <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl font-poppins mb-24 text-center">
-          {t("faq.title")}
+          {t("FAQ.title")}
         </h2>
         <Accordion variant="splitted">
           {questions.map((item, index) => (
@@ -59,26 +99,6 @@ export default function QnA() {
             </AccordionItem>
           ))}
         </Accordion>
-        <div className="w-full pt-12 lg:pt-24 mx-auto lg:p-4 z-10 relative flex flex-col items-center gap-8">
-          <h3 className="text-2xl font-bold text-center">
-            {t("faq.ready_title")}
-          </h3>
-          <div className="flex justify-center gap-10">
-            <button
-              className="px-4 py-2 bg-transparent border border-[#15803d] text-[#15803d] hover:text-white rounded-lg text-md hover:bg-[#15803d] transition shadow-md hover:shadow-lg"
-              onClick={() => handleRedirect(t("SecondaryLink"))}
-            >
-              {t("SecondaryButton")}
-            </button>
-            <button
-              id="bottom-contact-request"
-              className="px-4 py-2 bg-[#ee6410] text-white rounded-lg text-md hover:bg-[#d85a0e] transition shadow-md hover:shadow-lg"
-              onClick={() => handleRedirect(t("Link2"))}
-            >
-              {t("PrimaryButton")}
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );

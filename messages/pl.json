@@ -75,5 +75,31 @@
     "SecondaryButton": "Zobacz efekty",
     "PrimaryURL": "https://kwhotel-cloud.paperform.co?sol=--2--&source=lp-price",
     "SecondaryURL": "https://example.com"
+  },
+  "FAQ": {
+    "title": "Często zadawane pytania",
+    "ready_title": "Gotowy na optymalizację cen?",
+    "questions": [
+      {
+        "title": "Jak działa Price Recommender?",
+        "content": "Price Recommender analizuje dane rynkowe, historyczne trendy i konkurencję, aby automatycznie rekomendować optymalne ceny. System uczy się z tysięcy punktów danych, uwzględniając sezonowość, wydarzenia lokalne i specyfikę Twojego obiektu."
+      },
+      {
+        "title": "Czy mogę kontrolować rekomendowane ceny?",
+        "content": "Tak, masz pełną kontrolę! Możesz zatwierdzić rekomendacje jednym kliknięciem lub dostosować ceny ręcznie. System nie zmieni żadnej ceny bez Twojej zgody. Możesz też ustawić minimalny i maksymalny zakres cen."
+      },
+      {
+        "title": "Jakie dane analizuje system?",
+        "content": "System analizuje dane popytu, konkurencję cenową, historyczne trendy, sezonowość, wydarzenia lokalne, prognozy pogody i wiele innych czynników wpływających na cenę noclegu w Twojej lokalizacji."
+      },
+      {
+        "title": "Czy potrzebuję wiedzy o revenue management?",
+        "content": "Nie! Price Recommender jest zaprojektowany tak, aby był prosty w użyciu. Propozycje i uzasadnienia są podane na tacy, a Ty zarządzasz wszystkim w jednym wygodnym oknie. Nie musisz być ekspertem od zarządzania cenami."
+      },
+      {
+        "title": "Jak często otrzymuję rekomendacje?",
+        "content": "Otrzymujesz codzienne rekomendacje cenowe dla pokoi i apartamentów. System automatycznie reaguje na nagłe zmiany na rynku i dostarcza aktualne propozycje, które możesz zatwierdzić lub dostosować według własnych preferencji."
+      }
+    ]
   }
 }
