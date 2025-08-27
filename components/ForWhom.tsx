@@ -61,7 +61,7 @@ export default async function ForWhom() {
           {forWhomData.map((item) => (
             <div
               key={item.id}
-              className="bg-card border border-border overflow-hidden backdrop-blur-sm rounded-xl bg-background/50 hover:bg-background/90 transition-all duration-300 shadow-sm "
+              className="bg-card border border-border overflow-hidden backdrop-blur-sm rounded-xl hover:shadow-md transition-all duration-300 shadow-sm "
             >
               <div className="relative h-64">
                 <Image
